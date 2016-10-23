@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_dark.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/color/common_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_dark.xml",
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/color/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/color/wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
@@ -10,6 +18,14 @@
     {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_light.xml",
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/color/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_light.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/color/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",

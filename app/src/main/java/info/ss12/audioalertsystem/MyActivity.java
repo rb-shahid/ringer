@@ -401,7 +401,7 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
                         MyActivity.this);
                 alertDialogBuilder.setTitle("Facebook");
                 alertDialogBuilder
-                        .setMessage("Want to share your Current Location?")
+                        .setMessage("Want to share this app on Facebook?")
                         .setCancelable(false)
                         .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {
