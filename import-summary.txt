@@ -1,0 +1,192 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* AudioAlertSystem.iml
+* doc/
+* doc/allclasses-frame.html
+* doc/allclasses-noframe.html
+* doc/constant-values.html
+* doc/deprecated-list.html
+* doc/help-doc.html
+* doc/index-files/
+* doc/index-files/index-1.html
+* doc/index-files/index-10.html
+* doc/index-files/index-11.html
+* doc/index-files/index-12.html
+* doc/index-files/index-13.html
+* doc/index-files/index-14.html
+* doc/index-files/index-15.html
+* doc/index-files/index-16.html
+* doc/index-files/index-17.html
+* doc/index-files/index-18.html
+* doc/index-files/index-19.html
+* doc/index-files/index-2.html
+* doc/index-files/index-20.html
+* doc/index-files/index-3.html
+* doc/index-files/index-4.html
+* doc/index-files/index-5.html
+* doc/index-files/index-6.html
+* doc/index-files/index-7.html
+* doc/index-files/index-8.html
+* doc/index-files/index-9.html
+* doc/index.html
+* doc/info/
+* doc/info/ss12/
+* doc/info/ss12/audioalertsystem/
+* doc/info/ss12/audioalertsystem/BuildConfig.html
+* doc/info/ss12/audioalertsystem/ButtonController.html
+* doc/info/ss12/audioalertsystem/DetectorThread.html
+* doc/info/ss12/audioalertsystem/LocalService.html
+* doc/info/ss12/audioalertsystem/MainActivity.SettingClickListener.html
+* doc/info/ss12/audioalertsystem/MainActivity.html
+* doc/info/ss12/audioalertsystem/R.attr.html
+* doc/info/ss12/audioalertsystem/R.drawable.html
+* doc/info/ss12/audioalertsystem/R.html
+* doc/info/ss12/audioalertsystem/R.id.html
+* doc/info/ss12/audioalertsystem/R.layout.html
+* doc/info/ss12/audioalertsystem/R.menu.html
+* doc/info/ss12/audioalertsystem/R.string.html
+* doc/info/ss12/audioalertsystem/R.style.html
+* doc/info/ss12/audioalertsystem/RecorderThread.html
+* doc/info/ss12/audioalertsystem/ServiceActivity.html
+* doc/info/ss12/audioalertsystem/alert/
+* doc/info/ss12/audioalertsystem/alert/AbstractAlert.html
+* doc/info/ss12/audioalertsystem/alert/AlertListener.html
+* doc/info/ss12/audioalertsystem/alert/AudioAlert.html
+* doc/info/ss12/audioalertsystem/alert/FriendAlert.html
+* doc/info/ss12/audioalertsystem/alert/GPSAlert.MyLocationListeners.html
+* doc/info/ss12/audioalertsystem/alert/GPSAlert.html
+* doc/info/ss12/audioalertsystem/alert/WeatherAlert.html
+* doc/info/ss12/audioalertsystem/alert/class-use/
+* doc/info/ss12/audioalertsystem/alert/class-use/AbstractAlert.html
+* doc/info/ss12/audioalertsystem/alert/class-use/AlertListener.html
+* doc/info/ss12/audioalertsystem/alert/class-use/AudioAlert.html
+* doc/info/ss12/audioalertsystem/alert/class-use/FriendAlert.html
+* doc/info/ss12/audioalertsystem/alert/class-use/GPSAlert.MyLocationListeners.html
+* doc/info/ss12/audioalertsystem/alert/class-use/GPSAlert.html
+* doc/info/ss12/audioalertsystem/alert/class-use/WeatherAlert.html
+* doc/info/ss12/audioalertsystem/alert/package-frame.html
+* doc/info/ss12/audioalertsystem/alert/package-summary.html
+* doc/info/ss12/audioalertsystem/alert/package-tree.html
+* doc/info/ss12/audioalertsystem/alert/package-use.html
+* doc/info/ss12/audioalertsystem/class-use/
+* doc/info/ss12/audioalertsystem/class-use/BuildConfig.html
+* doc/info/ss12/audioalertsystem/class-use/ButtonController.html
+* doc/info/ss12/audioalertsystem/class-use/DetectorThread.html
+* doc/info/ss12/audioalertsystem/class-use/LocalService.html
+* doc/info/ss12/audioalertsystem/class-use/MainActivity.SettingClickListener.html
+* doc/info/ss12/audioalertsystem/class-use/MainActivity.html
+* doc/info/ss12/audioalertsystem/class-use/R.attr.html
+* doc/info/ss12/audioalertsystem/class-use/R.drawable.html
+* doc/info/ss12/audioalertsystem/class-use/R.html
+* doc/info/ss12/audioalertsystem/class-use/R.id.html
+* doc/info/ss12/audioalertsystem/class-use/R.layout.html
+* doc/info/ss12/audioalertsystem/class-use/R.menu.html
+* doc/info/ss12/audioalertsystem/class-use/R.string.html
+* doc/info/ss12/audioalertsystem/class-use/R.style.html
+* doc/info/ss12/audioalertsystem/class-use/RecorderThread.html
+* doc/info/ss12/audioalertsystem/class-use/ServiceActivity.html
+* doc/info/ss12/audioalertsystem/notification/
+* doc/info/ss12/audioalertsystem/notification/AbstractNotification.html
+* doc/info/ss12/audioalertsystem/notification/CameraLightNotification.html
+* doc/info/ss12/audioalertsystem/notification/FlashNotification.html
+* doc/info/ss12/audioalertsystem/notification/NotificationBarNotification.html
+* doc/info/ss12/audioalertsystem/notification/NotificationListener.html
+* doc/info/ss12/audioalertsystem/notification/SMSNotification.html
+* doc/info/ss12/audioalertsystem/notification/TextToSpeechNotification.html
+* doc/info/ss12/audioalertsystem/notification/VibrateNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/
+* doc/info/ss12/audioalertsystem/notification/class-use/AbstractNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/CameraLightNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/FlashNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/NotificationBarNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/NotificationListener.html
+* doc/info/ss12/audioalertsystem/notification/class-use/SMSNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/TextToSpeechNotification.html
+* doc/info/ss12/audioalertsystem/notification/class-use/VibrateNotification.html
+* doc/info/ss12/audioalertsystem/notification/package-frame.html
+* doc/info/ss12/audioalertsystem/notification/package-summary.html
+* doc/info/ss12/audioalertsystem/notification/package-tree.html
+* doc/info/ss12/audioalertsystem/notification/package-use.html
+* doc/info/ss12/audioalertsystem/package-frame.html
+* doc/info/ss12/audioalertsystem/package-summary.html
+* doc/info/ss12/audioalertsystem/package-tree.html
+* doc/info/ss12/audioalertsystem/package-use.html
+* doc/overview-frame.html
+* doc/overview-summary.html
+* doc/overview-tree.html
+* doc/package-list
+* doc/resources/
+* doc/resources/inherit.gif
+* doc/stylesheet.css
+* docs/
+* docs/flow chart.vsdx
+* ic_launcher-web.png
+* images/
+* images/banner1024.xcf
+* images/banner1024x500.jpg
+* images/banner180.jpg
+* images/classes.dia
+* images/classes.png
+* images/icon512.png
+* images/icon512.xcf
+* images/screenone.png
+* images/screentwopng.png
+* proguard-project.txt
+* readme.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/musicg-1.4.2.0.jar => app/libs/musicg-1.4.2.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

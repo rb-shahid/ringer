@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15sp"
+    tools:context=".MainActivity" >
+
+    <TextView 
+        android:id="@+id/timer_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/test_alert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_button_text" />
+
+    <ImageView
+        android:id="@+id/mic_image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:contentDescription="@string/mic_image"
+
+        android:src="@drawable/mic_icon_off" />
+
+    <Switch
+        android:id="@+id/mic_switch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/mic_status"
+        android:textOff="@string/switch_off"
+        android:textOn="@string/switch_on" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:padding="15sp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/emergency_contact"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/add_phone_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_contact" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/phone_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

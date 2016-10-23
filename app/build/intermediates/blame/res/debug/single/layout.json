@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/help.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/help.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/phone_entry_layout.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/phone_entry_layout.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/activity_about_new.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/activity_about_new.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/cell_layout.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/cell_layout.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/activity_splash_screen.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/layout/new_design.xml",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/layout/new_design.xml"
+    }
+]

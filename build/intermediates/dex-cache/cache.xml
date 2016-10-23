@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/shahid/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/shahid/Desktop/ringer-master/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0_67b2b8c53998b5fe28a008a4f11688ae7ca82ab9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shahid/Desktop/ringer-master/app/libs/musicg-1.4.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e4cc5194d9313717e173c63eb38dd220a63b5532">
+        <dex dex="/Users/shahid/Desktop/ringer-master/app/build/intermediates/pre-dexed/debug/musicg-1.4.2.0_60b0b1728a0be104daf85865450752087cfc2644.jar" />
+    </item>
+
+</items>

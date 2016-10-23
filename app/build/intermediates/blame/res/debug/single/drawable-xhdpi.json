@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_off_switch.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-xhdpi/ic_off_switch.png"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_on_switch.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-xhdpi/ic_on_switch.png"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/splash_screen.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/mipmap-xxxhdpi/splash_screen.png"
+    },
+    {
+        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_arrow_expand.png",
+        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/mipmap-xxxhdpi/ic_arrow_expand.png"
+    }
+]
