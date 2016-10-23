@@ -8,6 +8,14 @@
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-hdpi/rd_btn_unchecked.png"
     },
     {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable-hdpi/rd_btn_unchecked.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable-hdpi/rd_btn_unchecked.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/drawable-hdpi/mic_icon_on.png",
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-hdpi/mic_icon_on.png"
     },
@@ -16,7 +24,19 @@
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable-hdpi/rd_btn_checked.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable-hdpi/rd_btn_checked.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable-hdpi/mic_icon_off.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable-hdpi/mic_icon_off.png"
+    },
+    {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/drawable-hdpi/mic_icon_off.png",
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/drawable-hdpi/mic_icon_off.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable-hdpi/mic_icon_on.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable-hdpi/mic_icon_on.png"
     }
 ]

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ringer-master.iml" filepath="$PROJECT_DIR$/ringer-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ringer.iml" filepath="$PROJECT_DIR$/ringer.iml" />
     </modules>
   </component>
 </project>

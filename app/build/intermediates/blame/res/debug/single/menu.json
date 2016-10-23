@@ -1,7 +1,19 @@
 [
     {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/menu/about.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/menu/about.xml"
+    },
+    {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
         "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/menu/activity_main.xml"
     },
     {
         "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/menu/main.xml",
