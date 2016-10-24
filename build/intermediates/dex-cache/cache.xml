@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="c56819e327966dbe27eb8f4cfed2c6d1dc0be3f0">
+        sha1="4ae487e3f7e92730bac9026dc9876fb9f6e390de">
         <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b4c662a0e5f962f28d9c1d471837bda186c2c819/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="1c636fd83e286f246afb861f9f60491181473648">
+        sha1="8d054cdad687725e84edc91d3679ec389cb8d803">
         <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8c33ac794155dee5c6a395cf29596bd7c95994ac/classes.dex" />
     </item>
     <item

@@ -5,29 +5,29 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="24566139227704"
-    token="-4010346524747980377"
+    timestamp="28596478679107"
+    token="-5474954543152818459"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="580" />
+        duration="467" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="415" />
+        duration="399" />
     <task
         name="verifier"
-        duration="65" />
+        duration="46" />
 
     <artifact
         location="/Users/shahid/android/ringer/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="24566139227704"
+        timestamp="28596478679107"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/shahid/android/ringer/app/build/outputs/apk/app-debug.apk"
