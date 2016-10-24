@@ -365,6 +365,9 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
     public void onCreate(Bundle savedInstanceState) {
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState);
+
+        MyActivity.this.loopTrack = true;
+        MyActivity.this.savePref("WDH", MyActivity.DETECT_NONE);
 //        stopService(new Intent(getBaseContext(), Myservice.class));
         if (VERSION.SDK_INT >= 11) {
             super.setTheme(16973931);

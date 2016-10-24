@@ -292,8 +292,6 @@ public class Myservice extends Service implements OnSignalsDetectedListener {
             this.am.setStreamVolume(3, getVolume(), DETECT_NONE);
             if (loadTrackLoop() == 0) {
                 mediaPlayer.setLooping(true);
-            } else {
-                mediaPlayer.setLooping(false);
             }
             mediaPlayer.prepare();
             mediaPlayer.start();

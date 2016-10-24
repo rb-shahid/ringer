@@ -6,13 +6,5 @@
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
         "source": "/Users/shahid/android/ringer/app/src/main/res/anim/fade_out.xml"
-    },
-    {
-        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
-        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/anim/fade_out.xml"
-    },
-    {
-        "merged": "/Users/shahid/Desktop/ringer-master/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
-        "source": "/Users/shahid/Desktop/ringer-master/app/src/main/res/anim/fade_in.xml"
     }
 ]
