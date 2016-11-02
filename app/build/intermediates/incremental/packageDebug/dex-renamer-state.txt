@@ -1,4 +1,4 @@
-#Mon Oct 24 11:09:04 PKT 2016
+#Tue Nov 01 17:31:48 PKT 2016
 base.0=/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b4c662a0e5f962f28d9c1d471837bda186c2c819
 renamed.1=classes.dex
 renamed.0=classes2.dex

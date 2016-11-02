@@ -42,7 +42,7 @@ public class StopSoundDialog extends Activity {
         this.am = (AudioManager) getSystemService(AUDIO_SERVICE);
         this.am.setStreamVolume(3, getVolume(), 0);
         vib = (Vibrator) getSystemService(VIBRATOR_SERVICE);
-        new Builder(this).setTitle(getResources().getText(R.string.dia_title)).setMessage(getResources().getText(R.string.dia_message)).setPositiveButton(17039379, new C05151()).setIcon(R.drawable.ic_dialog_preview_gold).show();
+        new Builder(this).setCancelable(false).setTitle(getResources().getText(R.string.dia_title)).setMessage(getResources().getText(R.string.dia_message)).setPositiveButton(17039379, new C05151()).setIcon(R.drawable.ic_dialog_preview_gold).show();
     }
 
     public void ring() {

@@ -5,33 +5,46 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="28596478679107"
+    timestamp="51638085427906"
     token="-5474954543152818459"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="467" />
+        duration="3096" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="399" />
+        duration="201" />
     <task
         name="verifier"
-        duration="46" />
+        duration="3" />
 
     <artifact
-        location="/Users/shahid/android/ringer/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/Users/shahid/android/ringer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+    <artifact
+        location="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="28596478679107"
+        timestamp="50974424366395"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/shahid/android/ringer/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="51638085427906"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/shahid/android/ringer/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

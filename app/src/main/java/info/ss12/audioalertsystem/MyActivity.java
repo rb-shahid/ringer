@@ -16,6 +16,7 @@ import android.net.Uri;
 import android.os.Build.VERSION;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.Handler;
 import android.os.Process;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
@@ -75,6 +76,7 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
     private String path;
     private ImageView preview_sound;
     private boolean preview_sound_playing;
+    private RadioGroup rgDetectionType;
     private RadioButton radioClap;
     private RadioButton radioWhistle;
     RoundKnobButton rv;
@@ -402,16 +404,16 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
             public void onClick(View view) {
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(
                         MyActivity.this);
-                alertDialogBuilder.setTitle("Facebook");
+                alertDialogBuilder.setTitle(getResources().getString(R.string.share_string));
                 alertDialogBuilder
-                        .setMessage("Want to share this app on Facebook?")
+                        .setMessage(getResources().getString(R.string.share_dialog))
                         .setCancelable(false)
-                        .setPositiveButton("Yes",new DialogInterface.OnClickListener() {
+                        .setPositiveButton(getResources().getString(R.string.yes_string),new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog,int id) {
                                 shareAppLinkViaFacebook();
                             }
                         })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                        .setNegativeButton(getResources().getString(R.string.no_string), new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 dialog.cancel();
                             }
@@ -422,34 +424,33 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
             }
         });
 
-        this.rbServiceToggleOn.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (istsoundAugewählt.getText().toString().equals(MyActivity.this.chooseMusic)) {
-                    MyActivity.this.giveHint();
-                    MyActivity.this.rbServiceToggleOff.setChecked(true);
-                } else if (!MyActivity.this.detectingOnOff) {
-                    MyActivity.this.detectingOnOff = true;
-                    MyActivity.this.rbServiceToggleOn.setChecked(true);
+        this.rgServiceToggle.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if (checkedId == R.id.rb_service_toggle_on) {
+                    if (istsoundAugewählt.getText().toString().equals(MyActivity.this.chooseMusic)) {
+                        MyActivity.this.giveHint();
+                        MyActivity.this.rbServiceToggleOff.setChecked(true);
+                    } else if (!MyActivity.this.detectingOnOff) {
+                        MyActivity.this.detectingOnOff = true;
+                        MyActivity.this.rbServiceToggleOn.setChecked(true);
 //                startDetecting();
-                    Intent intent = new Intent(MyActivity.this, Myservice.class);
-                    MyActivity.this.startService(intent);
-                }
-            }
-        });
-
-        this.rbServiceToggleOff.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.detectingOnOff) {
-                    MyActivity.this.detectingOnOff = false;
-                    MyActivity.this.rbServiceToggleOff.setChecked(true);
-                    MyActivity.this.savePref("DETECTION", MyActivity.DETECT_NONE);
+                        Intent intent = new Intent(MyActivity.this, Myservice.class);
+                        MyActivity.this.startService(intent);
+                    }
+                } else if (checkedId == R.id.rb_service_toggle_off) {
+                    if (MyActivity.this.detectingOnOff) {
+                        MyActivity.this.detectingOnOff = false;
+                        MyActivity.this.rbServiceToggleOff.setChecked(true);
+                        MyActivity.this.savePref("DETECTION", MyActivity.DETECT_NONE);
                /* if (!(MyActivity.this.recorderThread == null || MyActivity.this.detectorThread == null)) {
                     MyActivity.this.recorderThread.stopRecording();
                     Log.i("stop on click", "stopped recording");
                 }*/
-                    Intent intent1 = new Intent(MyActivity.this, Myservice.class);
-                    stopService(intent1);
+                        Intent intent1 = new Intent(MyActivity.this, Myservice.class);
+                        MyActivity.this.stopService(intent1);
 //                MyActivity.this.displayInterstitial();
+                    }
                 }
             }
         });
@@ -462,17 +463,11 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
             }
 
             @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStartTrackingTouch(SeekBar seekBar) {}
 
             @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-
-            }
+            public void onStopTrackingTouch(SeekBar seekBar) {}
         });
-
-
 
         checkDetectionOnOff();
 //        addRoundknobButton();
@@ -541,60 +536,83 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
         this.sensitivity1 = (RadioButton) findViewById(R.id.radio21);
         this.sensitivity2 = (RadioButton) findViewById(R.id.radio22);
         this.sensitivity3 = (RadioButton) findViewById(R.id.radio23);
-        this.sensitivity1.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.sensitivity1.isChecked()) {
-                    MyActivity.this.savePref("sensTYPE", MyActivity.SELECT_TONE);
+
+        this.sensitivityType.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+
+                if (rbServiceToggleOn.isChecked()) {
+                    rbServiceToggleOff.setChecked(true);
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            rbServiceToggleOn.setChecked(true);
+                        }
+                    },150);
                 }
+
+                if (checkedId == R.id.radio21) {
+                    if (MyActivity.this.sensitivity1.isChecked()) {
+                        MyActivity.this.savePref("sensTYPE", MyActivity.SELECT_TONE);
+                    }
 //                MyActivity.this.displayInterstitial();
+                } else if (checkedId == R.id.radio22) {
+
+                    if (MyActivity.this.sensitivity2.isChecked()) {
+                        MyActivity.this.savePref("sensTYPE", 2);
+                    }
+//                MyActivity.this.displayInterstitial();
+                } else if (checkedId == R.id.radio23) {
+
+                    if (MyActivity.this.sensitivity3.isChecked()) {
+                        MyActivity.this.savePref("sensTYPE", 3);
+                    }
+//                MyActivity.this.displayInterstitial();
+                }
             }
         });
-        this.sensitivity2.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.sensitivity2.isChecked()) {
-                    MyActivity.this.savePref("sensTYPE", 2);
-                }
-//                MyActivity.this.displayInterstitial();
-            }
-        });
-        this.sensitivity3.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.sensitivity3.isChecked()) {
-                    MyActivity.this.savePref("sensTYPE", 3);
-                }
-//                MyActivity.this.displayInterstitial();
-            }
-        });
-        this.radioWhistle = (RadioButton) findViewById(R.id.radio31);
-        this.radioClap = (RadioButton) findViewById(R.id.radio32);
+
+        this.radioWhistle = (RadioButton) findViewById(R.id.rb_whistle);
+        this.radioClap = (RadioButton) findViewById(R.id.rb_clap);
         this.animFadeOut = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_out);
         this.animFadeIn = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_in);
-        this.radioWhistle.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.radioWhistle.isChecked()) {
-                    MyActivity.this.savePref("TYPDEC", MyActivity.DETECT_NONE);
-//                    MyActivity.this.giveHintOffOn();
-                    LinearLayout r = (LinearLayout) MyActivity.this.findViewById(R.id.LinearLayout5);
-                    if (!MyActivity.this.showsensitivity) {
-                        r.startAnimation(MyActivity.this.animFadeIn);
-                    }
-                    MyActivity.this.showsensitivity = true;
+        this.rgDetectionType = (RadioGroup) findViewById(R.id.rg_detection_type);
+        this.rgDetectionType.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                if (rbServiceToggleOn.isChecked()) {
+                    rbServiceToggleOff.setChecked(true);
+                    new Handler().postDelayed(new Runnable() {
+                        @Override
+                        public void run() {
+                            rbServiceToggleOn.setChecked(true);
+                        }
+                    },150);
                 }
-//                MyActivity.this.displayInterstitial();
-            }
-        });
-        this.radioClap.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-                if (MyActivity.this.radioClap.isChecked()) {
-                    MyActivity.this.savePref("TYPDEC", MyActivity.SELECT_TONE);
+                if (checkedId == R.id.rb_whistle) {
+                    if (MyActivity.this.radioWhistle.isChecked()) {
+                        MyActivity.this.savePref("TYPDEC", MyActivity.DETECT_NONE);
 //                    MyActivity.this.giveHintOffOn();
-                    LinearLayout r = (LinearLayout) MyActivity.this.findViewById(R.id.LinearLayout5);
-                    if (MyActivity.this.showsensitivity) {
-                        r.startAnimation(MyActivity.this.animFadeOut);
+                        LinearLayout r = (LinearLayout) MyActivity.this.findViewById(R.id.LinearLayout5);
+                        if (!MyActivity.this.showsensitivity) {
+                            r.startAnimation(MyActivity.this.animFadeIn);
+                        }
+                        MyActivity.this.showsensitivity = true;
                     }
-                    MyActivity.this.showsensitivity = false;
-                }
 //                MyActivity.this.displayInterstitial();
+                } else if (checkedId == R.id.rb_clap) {
+
+                    if (MyActivity.this.radioClap.isChecked()) {
+                        MyActivity.this.savePref("TYPDEC", MyActivity.SELECT_TONE);
+//                    MyActivity.this.giveHintOffOn();
+                        LinearLayout r = (LinearLayout) MyActivity.this.findViewById(R.id.LinearLayout5);
+                        if (MyActivity.this.showsensitivity) {
+                            r.startAnimation(MyActivity.this.animFadeOut);
+                        }
+                        MyActivity.this.showsensitivity = false;
+                    }
+//                MyActivity.this.displayInterstitial();
+                }
             }
         });
         loadVibCheckbox();
@@ -807,23 +825,23 @@ public class MyActivity extends Activity implements OnSignalsDetectedListener {
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(DETECT_NONE, DETECT_NONE, DETECT_NONE, getString(R.string.title_activity_about)).setIcon(R.drawable.actionabout);
-        menu.add(DETECT_NONE, SELECT_TONE, SELECT_TONE, getString(R.string.quit)).setIcon(R.drawable.contentremov);
+//        menu.add(DETECT_NONE, DETECT_NONE, DETECT_NONE, getString(R.string.title_activity_about)).setIcon(R.drawable.actionabout);
+//        menu.add(DETECT_NONE, SELECT_TONE, SELECT_TONE, getString(R.string.quit)).setIcon(R.drawable.contentremov);
         return super.onCreateOptionsMenu(menu);
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case DETECT_NONE /*0*/:
-                startActivity(new Intent(getApplicationContext(), AboutActivityNew.class));
-//                displayInterstitial();
-                Log.i("ABOUT", "kkkkkkkkkkkk");
-                break;
-            case SELECT_TONE /*1*/:
-                stopService(new Intent(getBaseContext(), Myservice.class));
-                savePref("DETECTION", DETECT_NONE);
-                finish();
-                break;
+//            case DETECT_NONE /*0*/:
+//                startActivity(new Intent(getApplicationContext(), AboutActivityNew.class));
+////                displayInterstitial();
+//                Log.i("ABOUT", "kkkkkkkkkkkk");
+//                break;
+//            case SELECT_TONE /*1*/:
+//                stopService(new Intent(getBaseContext(), Myservice.class));
+//                savePref("DETECTION", DETECT_NONE);
+//                finish();
+//                break;
         }
         return super.onOptionsItemSelected(item);
     }

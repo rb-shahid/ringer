@@ -60,12 +60,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/txt_bg_vert_new4.9.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_disabled_dark.9.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_dark.9.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/cstm_cb_btn.xml",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/cstm_cb_btn.xml"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_disabled_dark.9.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_dark.9.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/powered_by_google_dark.png",
@@ -164,12 +164,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/rd_btn_unchecked_selected.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_disabled_focus_dark.9.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_focus_dark.9.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/tgl_btn_on3.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/tgl_btn_on3.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_disabled_focus_dark.9.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_focus_dark.9.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/volume_stator.png",
