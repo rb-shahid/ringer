@@ -10,8 +10,8 @@
     <string name="but3">No, never</string>
     <string name="but4">Buy ad-free Pro-Version</string>
     <string name="camera_flash">Camera Flash on Alert</string>
-    <string name="choose_music">Please choose</string>
-    <string name="choose_music_file">Please choose a soundfile first!</string>
+    <string name="choose_music">选择</string>
+    <string name="choose_music_file">请首先选择一个声音文件！</string>
     <string name="chosen_music">Soundfile:</string>
     <string name="clap_string">拍</string>
     <string name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -69,6 +69,7 @@
     <string name="musicg">musicg:</string>
     <string name="musicg_code_google">- http://code.google.com/p/musicg/</string>
     <string name="musicg_explain">musicg is a lightweight audio analysis library</string>
+    <string name="no_string">没有</string>
     <string name="notification_text">Here I am! Click to stop playing sound!</string>
     <string name="notifications">Notifications</string>
     <string name="off_string">关闭</string>
@@ -91,6 +92,8 @@
     <string name="sensitivity_middle_string">中间</string>
     <string name="settings_header">Alert Settings</string>
     <string name="settings_text">Settings</string>
+    <string name="share_dialog">您要在Facebook上分享吗？</string>
+    <string name="share_string">分享</string>
     <string name="sleep_status">Prevent Sleep Status</string>
     <string name="sound_to_play">（默认会如果没有选中播放</string>
     <string name="sound_to_play_main">音响来播放 </string>
@@ -117,4 +120,5 @@
     <string name="volume_string">卷</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="whistle_string">哨</string>
+    <string name="yes_string">是</string>
 </resources>

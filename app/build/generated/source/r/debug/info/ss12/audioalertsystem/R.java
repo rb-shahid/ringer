@@ -305,62 +305,69 @@ public final class R {
         public static final int musicg=0x7f06003d;
         public static final int musicg_code_google=0x7f06003e;
         public static final int musicg_explain=0x7f06003f;
-        public static final int no_string=0x7f06006e;
-        public static final int notification_text=0x7f060040;
-        public static final int notifications=0x7f060041;
-        public static final int off_string=0x7f060042;
-        public static final int on_button=0x7f060043;
-        public static final int on_string=0x7f060044;
-        public static final int phone_hint=0x7f060045;
-        public static final int preview=0x7f060046;
-        public static final int quit=0x7f060047;
-        public static final int rate1=0x7f060048;
-        public static final int rate2=0x7f060049;
-        public static final int remove=0x7f06004a;
-        public static final int repeat=0x7f06004b;
-        public static final int save_button=0x7f06004c;
-        public static final int screen_flash=0x7f06004d;
-        public static final int select=0x7f06004e;
-        public static final int selectAudio=0x7f06004f;
-        public static final int sensitivity=0x7f060050;
-        public static final int sensitivity_hight=0x7f060051;
-        public static final int sensitivity_low_string=0x7f060052;
-        public static final int sensitivity_middle_string=0x7f060053;
-        public static final int settings_header=0x7f060054;
-        public static final int settings_text=0x7f060055;
-        public static final int share_dialog=0x7f06006f;
-        public static final int share_string=0x7f060070;
-        public static final int sleep_status=0x7f060056;
-        public static final int sound_to_play=0x7f060057;
-        public static final int sound_to_play_main=0x7f060058;
-        public static final int switch_off=0x7f060059;
-        public static final int switch_on=0x7f06005a;
-        public static final int test_button_text=0x7f06005b;
-        public static final int timer=0x7f06005c;
-        public static final int title_activity_about=0x7f06005d;
-        public static final int tts=0x7f06005e;
-        public static final int txt_message=0x7f06005f;
-        public static final int version=0x7f060060;
-        public static final int vib_type1=0x7f060061;
-        public static final int vib_type2=0x7f060062;
-        public static final int vib_type3=0x7f060063;
-        public static final int vib_type4=0x7f060064;
-        public static final int vibrate=0x7f060065;
-        public static final int vibration=0x7f060066;
-        public static final int vibrationType=0x7f060067;
-        public static final int vibration_string=0x7f060068;
-        public static final int visitmeon=0x7f060069;
-        public static final int volume=0x7f06006a;
-        public static final int volume_string=0x7f06006b;
-        public static final int wallet_buy_button_place_holder=0x7f06006c;
-        public static final int whistle_string=0x7f06006d;
+        public static final int no_string=0x7f060040;
+        public static final int notification_text=0x7f060041;
+        public static final int notifications=0x7f060042;
+        public static final int off_string=0x7f060043;
+        public static final int on_button=0x7f060044;
+        public static final int on_string=0x7f060045;
+        public static final int phone_hint=0x7f060046;
+        public static final int preview=0x7f060047;
+        public static final int quit=0x7f060048;
+        public static final int rate1=0x7f060049;
+        public static final int rate2=0x7f06004a;
+        public static final int remove=0x7f06004b;
+        public static final int repeat=0x7f06004c;
+        public static final int save_button=0x7f06004d;
+        public static final int screen_flash=0x7f06004e;
+        public static final int select=0x7f06004f;
+        public static final int selectAudio=0x7f060050;
+        public static final int sensitivity=0x7f060051;
+        public static final int sensitivity_hight=0x7f060052;
+        public static final int sensitivity_low_string=0x7f060053;
+        public static final int sensitivity_middle_string=0x7f060054;
+        public static final int settings_header=0x7f060055;
+        public static final int settings_text=0x7f060056;
+        public static final int share_dialog=0x7f060057;
+        public static final int share_string=0x7f060058;
+        public static final int sleep_status=0x7f060059;
+        public static final int sound_to_play=0x7f06005a;
+        public static final int sound_to_play_main=0x7f06005b;
+        public static final int switch_off=0x7f06005c;
+        public static final int switch_on=0x7f06005d;
+        public static final int test_button_text=0x7f06005e;
+        public static final int timer=0x7f06005f;
+        public static final int title_activity_about=0x7f060060;
+        public static final int tts=0x7f060061;
+        public static final int txt_message=0x7f060062;
+        public static final int version=0x7f060063;
+        public static final int vib_type1=0x7f060064;
+        public static final int vib_type2=0x7f060065;
+        public static final int vib_type3=0x7f060066;
+        public static final int vib_type4=0x7f060067;
+        public static final int vibrate=0x7f060068;
+        public static final int vibration=0x7f060069;
+        public static final int vibrationType=0x7f06006a;
+        public static final int vibration_string=0x7f06006b;
+        public static final int visitmeon=0x7f06006c;
+        public static final int volume=0x7f06006d;
+        public static final int volume_string=0x7f06006e;
+        public static final int wallet_buy_button_place_holder=0x7f06006f;
+        public static final int whistle_string=0x7f060070;
         public static final int yes_string=0x7f060071;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f070000;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f070001;
     }
 }

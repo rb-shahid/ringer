@@ -19,41 +19,5 @@
         sha1="e4cc5194d9313717e173c63eb38dd220a63b5532">
         <dex dex="/Users/shahid/android/ringer/app/build/intermediates/pre-dexed/debug/musicg-1.4.2.0_511b0272fd396aab505176574565d404420baec7.jar" />
     </item>
-    <item
-        is-multidex="true"
-        jar="/Users/shahid/android/ringer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="02f34943497fa3e039812bf3f46420688647f9a6">
-        <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b4c662a0e5f962f28d9c1d471837bda186c2c819/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/shahid/android/ringer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="bb0304a92ae176cd047f741f3ad025360bdf0308">
-        <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8c33ac794155dee5c6a395cf29596bd7c95994ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/shahid/android/ringer/app/libs/musicg-1.4.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e4cc5194d9313717e173c63eb38dd220a63b5532">
-        <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/2/musicg-1.4.2.0_511b0272fd396aab505176574565d404420baec7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/shahid/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/Users/shahid/android/ringer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_67b2b8c53998b5fe28a008a4f11688ae7ca82ab9/classes.dex" />
-    </item>
 
 </items>

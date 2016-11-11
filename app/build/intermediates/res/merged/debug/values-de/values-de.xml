@@ -10,8 +10,8 @@
     <string name="but3">No, never</string>
     <string name="but4">Buy ad-free Pro-Version</string>
     <string name="camera_flash">Camera Flash on Alert</string>
-    <string name="choose_music">Please choose</string>
-    <string name="choose_music_file">Please choose a soundfile first!</string>
+    <string name="choose_music">WÄHLEN</string>
+    <string name="choose_music_file">Bitte wählen Sie zuerst eine Sounddatei!</string>
     <string name="chosen_music">Soundfile:</string>
     <string name="clap_string">KLATSCHEN</string>
     <string name="common_google_play_services_enable_button">Enable Google Play services</string>
@@ -53,8 +53,8 @@
         Or select Whistle or Clap before turning to ON."</string>
     <string name="dia_hint_negative">OK, never show this message again.</string>
     <string name="dia_hint_title">Please read this!</string>
-    <string name="dia_message">Click OK to stop playing the sound</string>
-    <string name="dia_title">Stop Sound</string>
+    <string name="dia_message">Klicken Sie auf OK, um die Wiedergabe zu stoppen</string>
+    <string name="dia_title">Stoppen Sie den Sound</string>
     <string name="emergency_contact">Emergency Contacts: </string>
     <string name="ga_trackingId">UA-42091686-1</string>
     <string name="hello_world">Hello world!</string>
@@ -69,6 +69,7 @@
     <string name="musicg">musicg:</string>
     <string name="musicg_code_google">- http://code.google.com/p/musicg/</string>
     <string name="musicg_explain">musicg is a lightweight audio analysis library</string>
+    <string name="no_string">Nein</string>
     <string name="notification_text">Here I am! Click to stop playing sound!</string>
     <string name="notifications">Notifications</string>
     <string name="off_string">aus</string>
@@ -91,6 +92,8 @@
     <string name="sensitivity_middle_string">MITTE</string>
     <string name="settings_header">Alert Settings</string>
     <string name="settings_text">Settings</string>
+    <string name="share_dialog">Möchten Sie auf Facebook teilen?</string>
+    <string name="share_string">Aktie</string>
     <string name="sleep_status">Prevent Sleep Status</string>
     <string name="sound_to_play">(Standard abgespielt werden, wenn keine Angabe)</string>
     <string name="sound_to_play_main">Ton zu spielen </string>
@@ -117,4 +120,5 @@
     <string name="volume_string">VOLUMEN</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="whistle_string">PFEIFEN</string>
+    <string name="yes_string">ja</string>
 </resources>

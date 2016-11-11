@@ -4,12 +4,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_pressed_light.9.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/preview_on_bg.xml",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/preview_on_bg.xml"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_disabled_light.9.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_icon_disabled_light.9.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/preview_on_bg.xml",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/preview_on_bg.xml"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_pressed_dark.9.png",
@@ -52,12 +52,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/tgl_btn_off3_selected.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_normal_light.9.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_icon_normal_light.9.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/txt_bg_vert_new4.9.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/txt_bg_vert_new4.9.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_normal_light.9.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_icon_normal_light.9.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/cstm_cb_btn.xml",
@@ -68,16 +68,16 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_dark.9.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/powered_by_google_dark.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/powered_by_google_dark.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/preview_gold_off.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/preview_gold_off.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/preview_gold_on.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/preview_gold_on.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/powered_by_google_dark.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/powered_by_google_dark.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/rd_btn_checked_selected.png",
@@ -96,12 +96,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/cb_checked.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/facebook_icon.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/facebook_icon.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_pressed_dark.9.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_pressed_dark.9.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/facebook_icon.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/facebook_icon.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_focus_dark.9.png",
@@ -132,12 +132,12 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_normal_light.9.png"
     },
     {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/ic_dialog_preview_gold.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/ic_dialog_preview_gold.png"
-    },
-    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/twitter_icon.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/twitter_icon.png"
+    },
+    {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/ic_dialog_preview_gold.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/ic_dialog_preview_gold.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/txt_bg_hori_new5.9.png",
@@ -164,16 +164,16 @@
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/rd_btn_unchecked_selected.png"
     },
     {
+        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/volume_stator.png",
+        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/volume_stator.png"
+    },
+    {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/tgl_btn_on3.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/tgl_btn_on3.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_text_disabled_focus_dark.9.png",
         "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/common_signin_btn_text_disabled_focus_dark.9.png"
-    },
-    {
-        "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/volume_stator.png",
-        "source": "/Users/shahid/android/ringer/app/src/main/res/drawable/volume_stator.png"
     },
     {
         "merged": "/Users/shahid/android/ringer/app/build/intermediates/res/merged/debug/drawable/common_signin_btn_icon_light.xml",

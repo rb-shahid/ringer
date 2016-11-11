@@ -57,8 +57,6 @@
     <string name="title_activity_about">About</string>
     <string name="quit">Quit</string>
     <string name="chosen_music">Soundfile:</string>
-    <string name="choose_music">Please choose</string>
-    <string name="choose_music_file">Please choose a soundfile first!</string>
     <string name="volume">Volume</string>
     <string name="preview">Preview</string>
     <string name="repeat">Repeat</string>
@@ -118,6 +116,10 @@
     <string name="sensitivity_hight" >高い</string>
     <string name="dia_title" >音を止めます</string>
     <string name="dia_message" >サウンドの再生を停止するには、[OK]をクリックします</string>
+
+
+    <string name="choose_music">選択します</string>
+    <string name="choose_music_file">最初のサウンドファイルを選択してください！</string>
 
     <string name="share_string">シェア</string>
     <string name="share_dialog">あなたは、Facebook上で共有したいですか？</string>

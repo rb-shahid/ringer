@@ -57,8 +57,6 @@
     <string name="title_activity_about">About</string>
     <string name="quit">Quit</string>
     <string name="chosen_music">Soundfile:</string>
-    <string name="choose_music">Please choose</string>
-    <string name="choose_music_file">Please choose a soundfile first!</string>
     <string name="volume">Volume</string>
     <string name="preview">Preview</string>
     <string name="repeat">Repeat</string>
@@ -118,6 +116,10 @@
     <string name="sensitivity_hight" >عالي</string>
     <string name="dia_title" >إيقاف الصوت</string>
     <string name="dia_message" >انقر فوق موافق لنتوقف عن اللعب الصوت</string>
+
+
+    <string name="choose_music">اختار</string>
+    <string name="choose_music_file">الرجاء اختيار ملف صوتي لأول مرة!</string>
 
     <string name="share_string">شارك</string>
     <string name="share_dialog">هل ترغب في مشاركتها في الفيسبوك؟</string>
